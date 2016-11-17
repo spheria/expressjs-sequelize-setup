@@ -1,4 +1,4 @@
-# node-express-sequelize-es2015
+# node-expressjs-sequelize-2016
 
 A boilerplate using NodeJs, Express, Sequelize, Apidoc, Eslint, Mocha, Cluster and the best practices.
 
@@ -8,7 +8,7 @@ A boilerplate using NodeJs, Express, Sequelize, Apidoc, Eslint, Mocha, Cluster a
 2. `npm install`
 3. `npm start`
 4. Visit `https://localhost:3000`
-5. Visit `https://localhost:3000/apidoc` to see the existing API
+5. Visit `https://localhost:3000/apidoc` to see the existing API (under construction)
 
 ## Some command
 
@@ -35,7 +35,7 @@ libs        (Configurations files and libs)
 models      (Sequelize models)
 routes      (Express routes, the comments in this folder are used to generate the apidoc)
 test        (mocha test, 'npm test' to run it)
-<!-- auth.js     (Configuration for JWT auth (JSON Web Tokens)) -->
+auth.js     (Currently express-mysql session - Configuration for JWT auth (JSON Web Tokens) optional)
 index.js    (Entry point)
 ```
 
